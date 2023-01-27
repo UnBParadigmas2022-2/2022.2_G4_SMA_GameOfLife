@@ -1,7 +1,7 @@
 from agent import CellAgent
 from model import CellModel
 
-from mesa.visualization.modules import CanvasGrid
+from mesa.visualization.modules import CanvasGrid, ChartModule
 from mesa.visualization.ModularVisualization import ModularServer
 from mesa.visualization.UserParam import UserSettableParameter
 
@@ -47,7 +47,17 @@ simulation_params = {
     "height": SIZE
 }
 
+chart_currents = ChartModule(
+    [
+        {"Label": "Rich Agents", "Color": "blue"},
+        {"Label": "Normal Agents", "Color": "green"},
+        {"Label": "Poor Agents", "Color": "red"},
+    ],
+    canvas_height=300,
+    data_collector_name="data_collector_currents"
+)
+
 grid_visualization = CanvasGrid(agent_portrayal, SIZE, SIZE, X_SIZE, Y_SIZE)
-server = ModularServer(CellModel, [grid_visualization], "Game of Life", simulation_params)
+server = ModularServer(CellModel, [grid_visualization, chart_currents], "Game of Life", simulation_params)
 server.port = 8521
 server.launch()

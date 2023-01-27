@@ -1,6 +1,7 @@
 from mesa import Model
 from mesa.space import MultiGrid
 from mesa.time import RandomActivation
+from mesa.datacollection import DataCollector
 
 from agent import CellAgent
 
@@ -12,6 +13,14 @@ class CellModel(Model):
         self.schedule = RandomActivation(self)
         self.running = True
 
+        self.data_collector_currents = DataCollector(
+            {
+                "Rich Agents": CellModel.get_rich_agents,
+                "Normal Agents": CellModel.get_normal_agents,
+                "Poor Agents": CellModel.get_poor_agents,
+            }
+        )
+
         for idx in range(self.num_agents):
             agent = CellAgent(idx, self)
             self.schedule.add(agent)
@@ -22,3 +31,16 @@ class CellModel(Model):
 
     def step(self) -> None:
         self.schedule.step()
+        self.data_collector_currents.collect(self)
+
+    @staticmethod
+    def get_rich_agents(model) -> int:
+        return sum([1 for agent in model.schedule.agents if agent.money >= 3])
+
+    @staticmethod
+    def get_normal_agents(model) -> int:
+        return sum([1 for agent in model.schedule.agents if agent.money > 0 and agent.money < 3])
+
+    @staticmethod
+    def get_poor_agents(model) -> int:
+        return sum([1 for agent in model.schedule.agents if agent.money == 0])
