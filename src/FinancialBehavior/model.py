@@ -3,10 +3,10 @@ from mesa.space import MultiGrid
 from mesa.time import RandomActivation
 from mesa.datacollection import DataCollector
 
-from agent import CellAgent
+from agent import MoneyAgent
 
 
-class CellModel(Model):
+class MoneyModel(Model):
     def __init__(self, num_agents: int, width: int, height: int) -> None:
         self.num_agents = num_agents
         self.grid = MultiGrid(width, height, True)
@@ -15,14 +15,14 @@ class CellModel(Model):
 
         self.data_collector_currents = DataCollector(
             {
-                "Rich Agents": CellModel.get_rich_agents,
-                "Normal Agents": CellModel.get_normal_agents,
-                "Poor Agents": CellModel.get_poor_agents,
+                "Rich Agents": MoneyModel.get_rich_agents,
+                "Normal Agents": MoneyModel.get_normal_agents,
+                "Poor Agents": MoneyModel.get_poor_agents,
             }
         )
 
         for idx in range(self.num_agents):
-            agent = CellAgent(idx, self)
+            agent = MoneyAgent(idx, self)
             self.schedule.add(agent)
 
             x = self.random.randrange(self.grid.width)
