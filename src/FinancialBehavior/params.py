@@ -1,8 +1,10 @@
 from mesa.visualization.ModularVisualization import UserSettableParameter
 
-SIZE = 50
-X_SIZE = 800
-Y_SIZE = 800
+GRID_SIZE = 50
+GRID_X_SIZE = 800
+GRID_Y_SIZE = 800
+
+CANVAS_SIZE = 300
 
 SIMULATION_PARAMS = {
     "num_agents": UserSettableParameter(
@@ -14,8 +16,8 @@ SIMULATION_PARAMS = {
         step=1,
         description="Slider para definir a quantidade de agentes a serem simulados"
     ),
-    "width": SIZE,
-    "height": SIZE
+    "width": GRID_SIZE,
+    "height": GRID_SIZE,
 }
 
 SERVER_NAME = "Financial Behavior"

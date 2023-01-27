@@ -3,7 +3,7 @@ from mesa.space import MultiGrid
 from mesa.time import RandomActivation
 from mesa.datacollection import DataCollector
 
-from agent import MoneyAgent
+from src.FinancialBehavior.agent import MoneyAgent
 
 
 class MoneyModel(Model):
