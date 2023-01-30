@@ -2,9 +2,9 @@ from mesa import Agent, Model
 from random import choice
 
 class CellAgent(Agent):
-    def __init__(self, unique_id: int, model: Model) -> None:
+    def __init__(self, unique_id: int, model: Model, alive: bool) -> None:
         super().__init__(unique_id, model)
-        self.alive = choice([True, False])
+        self.alive = alive
 
     def renaissance(self) -> None:
         self.alive = True
@@ -22,7 +22,7 @@ class CellAgent(Agent):
         return alive
 
     def step(self) -> None:
-        alive = self.get_alive_and_dead_neighbors()
+        alive = self.get_alive_neighbors()
 
         if self.alive:
             if len(alive) <= 1:

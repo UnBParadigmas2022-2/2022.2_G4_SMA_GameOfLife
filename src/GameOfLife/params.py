@@ -9,15 +9,31 @@ CANVAS_SIZE = 300
 SIMULATION_PARAMS = {
     "num_agents": UserSettableParameter(
         "slider",
-        name="Número de agentes da simulação",
-        value=40,
-        min_value=20,
-        max_value=150,
+        name="Quantidade de Agentes Vivos",
+        value=GRID_SIZE,
+        min_value=GRID_SIZE - 30,
+        max_value=GRID_SIZE + 30,
         step=1,
-        description="Slider para definir a quantidade de agentes a serem simulados"
+        description=""
     ),
-    "width": GRID_SIZE,
-    "height": GRID_SIZE,
+    "width": UserSettableParameter(
+        "slider",
+        name="Largura do quadro",
+        value=GRID_SIZE,
+        min_value=GRID_SIZE - 30,
+        max_value=GRID_SIZE + 30,
+        step=1,
+        description=""
+    ),
+    "height": UserSettableParameter(
+        "slider",
+        name="Comprimento do quadro",
+        value=GRID_SIZE,
+        min_value=GRID_SIZE - 30,
+        max_value=GRID_SIZE + 30,
+        step=1,
+        description=""
+    ),
 }
 
 SERVER_NAME = "Jogo da Vida de Conway"
