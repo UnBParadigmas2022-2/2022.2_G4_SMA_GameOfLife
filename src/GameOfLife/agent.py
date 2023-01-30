@@ -32,5 +32,5 @@ class CellAgent(Agent):
                 self.extermination()
             
         else:
-            if len(alive) == 2 or len(alive) == 3:
+            if len(alive) == 3:
                 self.renaissance()

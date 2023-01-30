@@ -4,7 +4,7 @@ def agent_portrayal(agent: CellAgent):
     portrayal = {
         "Shape": "rect",
         "Filled": "true",
-        "Color": "#757575",
+        "Color": "#FFFFFF",
         "Layer": 0,
         "w": 0.8,
         "h": 0.8,

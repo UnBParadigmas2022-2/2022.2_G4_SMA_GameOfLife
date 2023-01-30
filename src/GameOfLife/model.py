@@ -17,38 +17,31 @@ class CellModel(Model):
             {}
         )
 
+        index = 0
 
-
-        for i in range(num_agents):
+        for _ in range(num_agents):
             x = random.randint(0, width-1)    
             y = random.randint(0, height-1)
 
-            agent = CellAgent(i, True, self)
-
+            agent = CellAgent(index, self, True)
+            index += 1
             self.schedule.add(agent)
 
             self.grid.place_agent(agent, (x,y))
 
 
-        
+        while self.grid.exists_empty_cells:
 
-        # while self.grid.exists_empty_cells:
-        #     coord = self.grid.find_empty()
-        #     agent = CellAgent(i, False, self)
+            coord = self.grid.find_empty()
+            if coord is None:
+                return
+            else:
+                print(coord)
+                agent = CellAgent(index, self, False)
+                index += 1
 
-        #     self.schedule.add(agent)
-
-        #     self.grid.place_agent(agent, coord)
-
-
-        # for i in range(width):
-        #     for j in range(height):
-        #         agent = CellAgent(count_index, self)
-        #         count_index += 1
-
-        #         self.schedule.add(agent)
-
-        #         self.grid.place_agent(agent, (i,j))
+                self.schedule.add(agent)
+                self.grid.place_agent(agent, coord)
 
     def step(self) -> None:
         self.schedule.step()
