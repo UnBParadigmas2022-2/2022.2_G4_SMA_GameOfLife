@@ -1,20 +1,23 @@
 from mesa.visualization.ModularVisualization import UserSettableParameter
 
-GRID_SIZE = 5
-WINDOW_X_SIZE = 800
-WINDOW_Y_SIZE = 800
+GRID_SIZE = 50
+GRID_X_SIZE = 800
+GRID_Y_SIZE = 800
+
+CANVAS_SIZE = 300
 
 SIMULATION_PARAMS = {
-    "alive_cells": UserSettableParameter(
+    "num_agents": UserSettableParameter(
         "slider",
-        name="Número de celulas vivas na partida do jogo",
-        value=(GRID_SIZE*GRID_SIZE)/2,
-        min_value=GRID_SIZE,
-        max_value=GRID_SIZE*GRID_SIZE,
-        step=5,
-        description="Slider para definir a quantidade de células vivas na simulação"
+        name="Número de agentes da simulação",
+        value=40,
+        min_value=20,
+        max_value=150,
+        step=1,
+        description="Slider para definir a quantidade de agentes a serem simulados"
     ),
-    "size": GRID_SIZE,
+    "width": GRID_SIZE,
+    "height": GRID_SIZE,
 }
 
-SERVER_NAME = "Game of Life"
+SERVER_NAME = "Jogo da Vida de Conway"

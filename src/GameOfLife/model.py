@@ -1,32 +1,32 @@
 from mesa import Model
-from mesa.space import SingleGrid
+from mesa.space import MultiGrid
 from mesa.time import RandomActivation
+from mesa.datacollection import DataCollector
 
 from src.GameOfLife.agent import CellAgent
 
+
 class CellModel(Model):
-    def __init__(self, alive_cells: int, size: int) -> None:
-        self.alive_cells = alive_cells
-        self.grid = SingleGrid(width=size, height=size, torus=True)
+    def __init__(self, num_agents: int, width: int, height: int) -> None:
+        self.num_agents = num_agents
+        self.grid = MultiGrid(width, height, True)
         self.schedule = RandomActivation(self)
         self.running = True
 
-        # TODO: adicionar atributo de data collector
+        self.data_collector_currents = DataCollector(
+            {}
+        )
 
-        id_count = 0
-        for i in range(size):
-            for j in range(size):
-                agent = CellAgent(id_count, self, True) #TODO: adicionar método de randomizar células vivas e mortas, a partir do input de número de células vivas
-                id_count += 1
+        count_index = 0
+        for i in range(width):
+            for j in range(height):
+                agent = CellAgent(count_index, self)
+                count_index += 1
 
                 self.schedule.add(agent)
 
                 self.grid.place_agent(agent, (i,j))
-            
+
     def step(self) -> None:
         self.schedule.step()
-        # TODO: acionar o data collector pra coletar informações
-
-    # TODO: adicionar método de coleta de células vivas
-    # TODO: Adicionar método de coleta de células mortas
-    
+        # self.data_collector_currents.collect(self)
