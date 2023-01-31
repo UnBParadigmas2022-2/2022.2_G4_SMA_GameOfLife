@@ -21,7 +21,7 @@ SIMULATION_PARAMS = {
         name="Largura do quadro",
         value=GRID_SIZE,
         min_value=GRID_SIZE - 30,
-        max_value=GRID_SIZE + 30,
+        max_value=GRID_SIZE,
         step=1,
         description=""
     ),
@@ -30,7 +30,7 @@ SIMULATION_PARAMS = {
         name="Comprimento do quadro",
         value=GRID_SIZE,
         min_value=GRID_SIZE - 30,
-        max_value=GRID_SIZE + 30,
+        max_value=GRID_SIZE,
         step=1,
         description=""
     ),
