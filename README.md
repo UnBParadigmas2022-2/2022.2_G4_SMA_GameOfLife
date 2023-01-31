@@ -84,7 +84,7 @@ Será possível ver o comportamento dos agentes e um gráfico mostrando a propor
 | Nome do Membro                      | Contribuição | Significância da Contribuição para o Projeto |
 | - | - | - |
 | Amanda Jeniffer Pereira Nobre       | Sem participação | Nula |
-| Ana Carolina Rodrigues Leite        | Filtro de vizinhos vivos e mortos e o renascimento | Ruim |
+| Ana Carolina Rodrigues Leite        | Filtro de vizinhos vivos e mortos e o renascimento | Regular |
 | Daniel Barcelos Moreira             | Dockerização do ambiente | Regular |
 | Enzo Gabriel Guedes Queiroz Saraiva | Dockerização do ambiente e auxílio com a construção da POC | Boa | 
 | Hugo Sobral de Lima Salomão         | Idealização do tema, criação e implementação da arquitetura, implementação da POC, desenvolvimento do Game Of Life | Excelente |
@@ -97,7 +97,7 @@ Será possível ver o comportamento dos agentes e um gráfico mostrando a propor
 | Nome do Membro                      | Lições |
 | - | - |
 | Amanda Jeniffer Pereira Nobre       | - |
-| Ana Carolina Rodrigues Leite        | - | 
+| Ana Carolina Rodrigues Leite        | Aprendizado sobre como fazer a filtragem de vizinhos vivos e mortos, dentro do grid e verificando os casos em que ele renasce e um pouco sobre o paradigma SMA.  | 
 | Daniel Barcelos Moreira             | Aprendizado sobre a dockerização do ambiente e um pouco sobre o paradigma SMA. |
 | Enzo Gabriel Guedes Queiroz Saraiva | Neste projeto, foi possível aprender sobre SMA em geral, que era um paradigma completamente desconhecido até então. Foi legal ver como os agentes se relacionam e são utilizados. Além disso, foi legal também aprender sobre o framework MESA que é um framework de python para este paradgima. | 
 | Hugo Sobral de Lima Salomão         | Foi possível implementar os agentes e os diferentes níveis de controle inerentes ao paradigma. Além dos conceitos do paradigma em si, foi possível exercitar conhecimentos de arquitetura e reutilização de software para implementar estilos modernos e emergentes, como é o caso da feature flag implementada no projeto. |
@@ -108,7 +108,7 @@ Será possível ver o comportamento dos agentes e um gráfico mostrando a propor
 | Nome do Membro                      | Percepções |
 | - | - |
 | Amanda Jeniffer Pereira Nobre       | - |
-| Ana Carolina Rodrigues Leite        | - | 
+| Ana Carolina Rodrigues Leite        | Acredito que a forma como o paradigma tenta representar situações que são mais complexas, é curioso pensar e entender a forma como ele funciona.  | 
 | Daniel Barcelos Moreira             | Existem alguns tutoriais que auxiliam na realização da dockerização do ambiente. |
 | Enzo Gabriel Guedes Queiroz Saraiva | Assim como nos demais paradgimas aprendidos anteriormente, foi interessante ter que reprogramar o cérebro para pensar diferente ao aprender um novo paradgima. E ter essa capacidade é algo muito importante na vida de um programador, pois ter que se adaptar ao mercado é fundamental. | 
 | Hugo Sobral de Lima Salomão         | É notável a facilidade do paradigma em modelar e representar sistemas com alta volatilidade e e fortes tendências à entropia. Por meio da utilização de conceitos de agentes inteligentes e autônomos, é possível modelar inteligências que escalam de um nível individual para um coletivo entrópico. |
@@ -119,7 +119,7 @@ Será possível ver o comportamento dos agentes e um gráfico mostrando a propor
 | Nome do Membro                      | Fragilidades |
 | - | - |
 | Amanda Jeniffer Pereira Nobre       | - |
-| Ana Carolina Rodrigues Leite        | - | 
+| Ana Carolina Rodrigues Leite        | Percebi que a maior fragilidade foi entender o modo como o paradigma funcionava. | 
 | Daniel Barcelos Moreira             | Praticamente não tive contato com o paradigma, porém uma fragilidade que percebi é a dificuldade para realizar personalizações na interface. |
 | Enzo Gabriel Guedes Queiroz Saraiva | De modo geral, o grupo foi se fragilizando ao longo do semestre, pois alguns membros acabaram saindo conforme as entregas. De um modo mais específico sobre o paradigma, pude perceber que esse foi o que mais tive problemas para entender, foi mais difícil de compreender a lógica | 
 | Hugo Sobral de Lima Salomão         | O Mesa ainda é uma plataforma altamente engessada às diretrizes idiomáticas do framework. Por mais que a ferramenta ofereça bastante com pouco esforço, o nível de personalização da mesma é bastante limitado. |
