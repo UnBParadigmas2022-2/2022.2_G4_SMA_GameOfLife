@@ -100,7 +100,7 @@ Será possível ver o comportamento dos agentes e um gráfico mostrando a propor
 | Ana Carolina Rodrigues Leite        | - | 
 | Daniel Barcelos Moreira             | - |
 | Enzo Gabriel Guedes Queiroz Saraiva | - | 
-| Hugo Sobral de Lima Salomão         | - |
+| Hugo Sobral de Lima Salomão         | Foi possível implementar os agentes e os diferentes níveis de controle inerentes ao paradigma. Além dos conceitos do paradigma em si, foi possível exercitar conhecimentos de arquitetura e reutilização de software para implementar estilos modernos e emergentes, como é o caso da feature flag implementada no projeto. |
 | Leonardo da Silva Gomes             | - | 
 | Micaella Lorraine Gouveia de Lima   | Com este projeto foi possível entender o paradigma SMA de forma prática, evidenciando os comportamentos dos agentes e como as regras do jogo se encaixam nesse comportamento. Pude participar ativamente da idealização do tema, da construção da POC como forma de aprendizado da plataforma mesa, ajudando significativamente no desenvolvimento do projeto final | 
 
@@ -111,7 +111,7 @@ Será possível ver o comportamento dos agentes e um gráfico mostrando a propor
 | Ana Carolina Rodrigues Leite        | - | 
 | Daniel Barcelos Moreira             | - |
 | Enzo Gabriel Guedes Queiroz Saraiva | - | 
-| Hugo Sobral de Lima Salomão         | - |
+| Hugo Sobral de Lima Salomão         | É notável a facilidade do paradigma em modelar e representar sistemas com alta volatilidade e e fortes tendências à entropia. Por meio da utilização de conceitos de agentes inteligentes e autônomos, é possível modelar inteligências que escalam de um nível individual para um coletivo entrópico. |
 | Leonardo da Silva Gomes             | - | 
 | Micaella Lorraine Gouveia de Lima   | O paradigma SMA é muito interessante e diferente da forma como pensamos programação normalmente. Te faz enxergar agentes por meio de comportamentos, e foi uma virada de chave a questão dele ser independente | 
 
@@ -122,7 +122,7 @@ Será possível ver o comportamento dos agentes e um gráfico mostrando a propor
 | Ana Carolina Rodrigues Leite        | - | 
 | Daniel Barcelos Moreira             | - |
 | Enzo Gabriel Guedes Queiroz Saraiva | - | 
-| Hugo Sobral de Lima Salomão         | - |
+| Hugo Sobral de Lima Salomão         | O Mesa ainda é uma plataforma altamente engessada às diretrizes idiomáticas do framework. Por mais que a ferramenta ofereça bastante com pouco esforço, o nível de personalização da mesma é bastante limitado. |
 | Leonardo da Silva Gomes             | - | 
 | Micaella Lorraine Gouveia de Lima   | A plataforma tem suas fragilidades, e por questões de tempo não conseguimos evoluir o trabalho para ter uma interface mais amigável com a ideia proposta.| 
 
