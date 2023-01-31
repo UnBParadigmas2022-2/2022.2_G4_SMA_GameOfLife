@@ -1,6 +1,7 @@
 from src.server import server
+import os
 
 if __name__ == "__main__":
     if server is not None:
-        server.port = 8521
+        server.port = os.environ.get("PORT", 8521)
         server.launch()
