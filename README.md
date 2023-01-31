@@ -99,7 +99,7 @@ Será possível ver o comportamento dos agentes e um gráfico mostrando a propor
 | Amanda Jeniffer Pereira Nobre       | - |
 | Ana Carolina Rodrigues Leite        | - | 
 | Daniel Barcelos Moreira             | Aprendizado sobre a dockerização do ambiente e um pouco sobre o paradigma SMA. |
-| Enzo Gabriel Guedes Queiroz Saraiva | - | 
+| Enzo Gabriel Guedes Queiroz Saraiva | Neste projeto, foi possível aprender sobre SMA em geral, que era um paradigma completamente desconhecido até então. Foi legal ver como os agentes se relacionam e são utilizados. Além disso, foi legal também aprender sobre o framework MESA que é um framework de python para este paradgima. | 
 | Hugo Sobral de Lima Salomão         | Foi possível implementar os agentes e os diferentes níveis de controle inerentes ao paradigma. Além dos conceitos do paradigma em si, foi possível exercitar conhecimentos de arquitetura e reutilização de software para implementar estilos modernos e emergentes, como é o caso da feature flag implementada no projeto. |
 | Leonardo da Silva Gomes             | Um dos principais ganhos dentro dessa etapa da disciplina foi a construção de um SMA e a idealização do mesmo, além de ser uma tremenda quebra de paradigmas e de contruções de estruturas enraizadas ao decorrer do curso | 
 | Micaella Lorraine Gouveia de Lima   | Com este projeto foi possível entender o paradigma SMA de forma prática, evidenciando os comportamentos dos agentes e como as regras do jogo se encaixam nesse comportamento. Pude participar ativamente da idealização do tema, da construção da POC como forma de aprendizado da plataforma mesa, ajudando significativamente no desenvolvimento do projeto final | 
@@ -110,7 +110,7 @@ Será possível ver o comportamento dos agentes e um gráfico mostrando a propor
 | Amanda Jeniffer Pereira Nobre       | - |
 | Ana Carolina Rodrigues Leite        | - | 
 | Daniel Barcelos Moreira             | Existem alguns tutoriais que auxiliam na realização da dockerização do ambiente. |
-| Enzo Gabriel Guedes Queiroz Saraiva | - | 
+| Enzo Gabriel Guedes Queiroz Saraiva | Assim como nos demais paradgimas aprendidos anteriormente, foi interessante ter que reprogramar o cérebro para pensar diferente ao aprender um novo paradgima. E ter essa capacidade é algo muito importante na vida de um programador, pois ter que se adaptar ao mercado é fundamental. | 
 | Hugo Sobral de Lima Salomão         | É notável a facilidade do paradigma em modelar e representar sistemas com alta volatilidade e e fortes tendências à entropia. Por meio da utilização de conceitos de agentes inteligentes e autônomos, é possível modelar inteligências que escalam de um nível individual para um coletivo entrópico. |
 | Leonardo da Silva Gomes             | Nesse etapa pude entrar dentro de outra perspectiva de codificação e conceitos nos quais consegui imergir dentro de definições, que antes se baseavam apenas em machine learning, mas que puderam expandir para outro olhares. | 
 | Micaella Lorraine Gouveia de Lima   | O paradigma SMA é muito interessante e diferente da forma como pensamos programação normalmente. Te faz enxergar agentes por meio de comportamentos, e foi uma virada de chave a questão dele ser independente | 
@@ -121,7 +121,7 @@ Será possível ver o comportamento dos agentes e um gráfico mostrando a propor
 | Amanda Jeniffer Pereira Nobre       | - |
 | Ana Carolina Rodrigues Leite        | - | 
 | Daniel Barcelos Moreira             | Praticamente não tive contato com o paradigma, porém uma fragilidade que percebi é a dificuldade para realizar personalizações na interface. |
-| Enzo Gabriel Guedes Queiroz Saraiva | - | 
+| Enzo Gabriel Guedes Queiroz Saraiva | De modo geral, o grupo foi se fragilizando ao longo do semestre, pois alguns membros acabaram saindo conforme as entregas. De um modo mais específico sobre o paradigma, pude perceber que esse foi o que mais tive problemas para entender, foi mais difícil de compreender a lógica | 
 | Hugo Sobral de Lima Salomão         | O Mesa ainda é uma plataforma altamente engessada às diretrizes idiomáticas do framework. Por mais que a ferramenta ofereça bastante com pouco esforço, o nível de personalização da mesma é bastante limitado. |
 | Leonardo da Silva Gomes             | Com o fim da disciplina, pude relatar que esta etapa foi a que eu encontrei maior dificuldade, as abstrações que os frameworks trazem não tinham ficado muito claros na minha cabeça, mas pude melhorar esse entendimento quando finalmente coloquei a mão na massa. | 
 | Micaella Lorraine Gouveia de Lima   | A plataforma tem suas fragilidades, e por questões de tempo não conseguimos evoluir o trabalho para ter uma interface mais amigável com a ideia proposta.| 
