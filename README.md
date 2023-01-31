@@ -98,7 +98,7 @@ Será possível ver o comportamento dos agentes e um gráfico mostrando a propor
 | - | - |
 | Amanda Jeniffer Pereira Nobre       | - |
 | Ana Carolina Rodrigues Leite        | - | 
-| Daniel Barcelos Moreira             | - |
+| Daniel Barcelos Moreira             | Aprendizado sobre a dockerização do ambiente e um pouco sobre o paradigma SMA. |
 | Enzo Gabriel Guedes Queiroz Saraiva | - | 
 | Hugo Sobral de Lima Salomão         | Foi possível implementar os agentes e os diferentes níveis de controle inerentes ao paradigma. Além dos conceitos do paradigma em si, foi possível exercitar conhecimentos de arquitetura e reutilização de software para implementar estilos modernos e emergentes, como é o caso da feature flag implementada no projeto. |
 | Leonardo da Silva Gomes             | Um dos principais ganhos dentro dessa etapa da disciplina foi a construção de um SMA e a idealização do mesmo, além de ser uma tremenda quebra de paradigmas e de contruções de estruturas enraizadas ao decorrer do curso | 
@@ -109,7 +109,7 @@ Será possível ver o comportamento dos agentes e um gráfico mostrando a propor
 | - | - |
 | Amanda Jeniffer Pereira Nobre       | - |
 | Ana Carolina Rodrigues Leite        | - | 
-| Daniel Barcelos Moreira             | - |
+| Daniel Barcelos Moreira             | Existem alguns tutoriais que auxiliam na realização da dockerização do ambiente. |
 | Enzo Gabriel Guedes Queiroz Saraiva | - | 
 | Hugo Sobral de Lima Salomão         | É notável a facilidade do paradigma em modelar e representar sistemas com alta volatilidade e e fortes tendências à entropia. Por meio da utilização de conceitos de agentes inteligentes e autônomos, é possível modelar inteligências que escalam de um nível individual para um coletivo entrópico. |
 | Leonardo da Silva Gomes             | Nesse etapa pude entrar dentro de outra perspectiva de codificação e conceitos nos quais consegui imergir dentro de definições, que antes se baseavam apenas em machine learning, mas que puderam expandir para outro olhares. | 
@@ -120,7 +120,7 @@ Será possível ver o comportamento dos agentes e um gráfico mostrando a propor
 | - | - |
 | Amanda Jeniffer Pereira Nobre       | - |
 | Ana Carolina Rodrigues Leite        | - | 
-| Daniel Barcelos Moreira             | - |
+| Daniel Barcelos Moreira             | Praticamente não tive contato com o paradigma, porém uma fragilidade que percebi é a dificuldade para realizar personalizações na interface. |
 | Enzo Gabriel Guedes Queiroz Saraiva | - | 
 | Hugo Sobral de Lima Salomão         | O Mesa ainda é uma plataforma altamente engessada às diretrizes idiomáticas do framework. Por mais que a ferramenta ofereça bastante com pouco esforço, o nível de personalização da mesma é bastante limitado. |
 | Leonardo da Silva Gomes             | Com o fim da disciplina, pude relatar que esta etapa foi a que eu encontrei maior dificuldade, as abstrações que os frameworks trazem não tinham ficado muito claros na minha cabeça, mas pude melhorar esse entendimento quando finalmente coloquei a mão na massa. | 
