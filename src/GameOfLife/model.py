@@ -14,7 +14,10 @@ class CellModel(Model):
         self.running = True
 
         self.data_collector_currents = DataCollector(
-            {}
+            {
+                "cell alive": CellModel.get_num_alive_cell,
+                "cell dead": CellModel.get_num_dead_cell
+            }
         )
 
         index = 0
@@ -45,4 +48,12 @@ class CellModel(Model):
 
     def step(self) -> None:
         self.schedule.step()
-        # self.data_collector_currents.collect(self)
+        self.data_collector_currents.collect(self)
+
+    @staticmethod
+    def get_num_alive_cell(model) -> int:
+        return sum([1 for agent in model.schedule.agents if agent.alive])
+
+    @staticmethod
+    def get_num_dead_cell(model) -> int:
+        return sum([1 for agent in model.schedule.agents if not agent.alive])

@@ -10,7 +10,7 @@ SIMULATION_PARAMS = {
     "num_agents": UserSettableParameter(
         "slider",
         name="Quantidade de Agentes Vivos",
-        value=(GRID_SIZE * GRID_SIZE) - 200,
+        value=300,
         min_value=((GRID_SIZE - 30) * (GRID_SIZE - 30)) - 200,
         max_value=((GRID_SIZE - 30) * (GRID_SIZE + 30)) - 200,
         step=1,
