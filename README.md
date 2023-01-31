@@ -102,7 +102,7 @@ Será possível ver o comportamento dos agentes e um gráfico mostrando a propor
 | Enzo Gabriel Guedes Queiroz Saraiva | - | 
 | Hugo Sobral de Lima Salomão         | - |
 | Leonardo da Silva Gomes             | - | 
-| Micaella Lorraine Gouveia de Lima   | Com este projeto foi possível entender o paradigma SMA de forma prática, evidenciando os comportamentos dos agentes e como as regras do jogo se encaixam nesse comportamento. | 
+| Micaella Lorraine Gouveia de Lima   | Com este projeto foi possível entender o paradigma SMA de forma prática, evidenciando os comportamentos dos agentes e como as regras do jogo se encaixam nesse comportamento. Pude participar ativamente da idealização do tema, da construção da POC como forma de aprendizado da plataforma mesa, ajudando significativamente no desenvolvimento do projeto final | 
 
 ### Percepções
 | Nome do Membro                      | Percepções |
@@ -124,7 +124,7 @@ Será possível ver o comportamento dos agentes e um gráfico mostrando a propor
 | Enzo Gabriel Guedes Queiroz Saraiva | - | 
 | Hugo Sobral de Lima Salomão         | - |
 | Leonardo da Silva Gomes             | - | 
-| Micaella Lorraine Gouveia de Lima   | Pude participar ativamente da idealização do tema, da construção da POC como forma de aprendizado da plataforma mesa, ajudando significativamente no desenvolvimento do projeto final| 
+| Micaella Lorraine Gouveia de Lima   | A plataforma tem suas fragilidades, e por questões de tempo não conseguimos evoluir o trabalho para ter uma interface mais amigável com a ideia proposta.| 
 
 ### Trabalhos Futuros
 - Melhoria na visualização do grid.
